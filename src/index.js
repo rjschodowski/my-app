@@ -4,8 +4,12 @@ import ReactDOM from 'react-dom';
 const App = () => {
 
     return (
-        <div>
-            Hola
+        <div className="ui container comments">
+            <div className="comment">
+                <a href="/" className="avatar">
+                    <img alt="avatar" />
+                </a>
+            </div>
         </div>
     )
 };
